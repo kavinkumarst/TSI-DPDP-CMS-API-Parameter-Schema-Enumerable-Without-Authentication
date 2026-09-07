@@ -160,5 +160,3 @@ In all API routes, ensure the authentication middleware executes **before** sche
 - Related: CVE-2026-84839, CVE-2026-84840, CVE-2026-84841
 
 ---
-
-*Reported by Mahendravarman R — NexTurn Security — mahendravarman.r@nexturn.com*
