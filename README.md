@@ -10,7 +10,7 @@
 | **Vulnerability Type** | Information Exposure via Pre-Authentication Parameter Validation |
 | **CWE** | CWE-200 (Exposure of Sensitive Information), CWE-862 (Missing Authorization) |
 | **CVSS 3.1 Score** | 3.1 Low — `AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N` |
-| **Reported By** | Mahendravarman R — NexTurn Security |
+| **Reported By** | Kavin Kumar S T |
 | **Discovery Date** | 10 July 2026 |
 
 ---
