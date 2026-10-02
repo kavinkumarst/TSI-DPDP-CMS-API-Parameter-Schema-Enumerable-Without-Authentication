@@ -5,8 +5,8 @@
 | Field | Details |
 |-------|---------|
 | **Product** | TSI DPDP CMS (`tsi-coop/tsi-dpdp-cms`) |
-| **Affected Versions** | ≤ 0.5.0 |
-| **Fixed Version** | 0.5.1 |
+| **Affected Versions** | ≤ 0.5.2 |
+| **Fixed Version** | 0.5.3 |
 | **Vulnerability Type** | Information Exposure via Pre-Authentication Parameter Validation |
 | **CWE** | CWE-200 (Exposure of Sensitive Information), CWE-862 (Missing Authorization) |
 | **CVSS 3.1 Score** | 3.1 Low — `AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N` |
@@ -144,11 +144,11 @@ Request → Authentication → Parameter Validation → Business Logic   ← COR
 
 ## Fix
 
-Upgrade to **tsi-dpdp-cms v0.5.1**.
+Upgrade to **tsi-dpdp-cms v0.5.3**.
 
 In all API routes, ensure the authentication middleware executes **before** schema/parameter validation. The server must return HTTP 401 on any missing or invalid Authorization token before any other processing occurs.
 
-**Reference:** https://github.com/tsi-coop/tsi-dpdp-cms/releases/tag/v0.5.1
+**Reference:** https://github.com/tsi-coop/tsi-dpdp-cms/releases/tag/v0.5.3
 
 ---
 
